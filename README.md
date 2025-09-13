@@ -57,3 +57,13 @@ Scaffold project with **Vite** and **React** with **Tailwind v4** for styling.
 I customized my **Tailwind** theme, downloaded the logo and converted to `.ico`, downloaded hero images, then dived into the data.
 
 I tried wrangling the weather icons first, but pinpointed that I'd need to check out the returned data first. I had considered using `react-icons`, which are monocoloured, but I wanted them to reflect to design more. I decided to, for now, use **[Flaticons](https://www.flaticon.com/search?word=weather&type=animated-icon&k=1757212878624&log-in=google)** because I want to make it a full experience. Of course, I'll have fall-back icons for `prefers-reduced-motion`.
+
+## :two: Day 2 (September 13th)
+
+I thought about the project structure, because I wanted to make build this project like the professional I am.
+
+I went with **feature-based**. I want to show I can expand the app later on, so I placed everything in a `features` directory and all the _weather-stuff_ of this **weather app** in a `weather` directory.
+
+So, why? Why add all this extra complexity?
+
+Not only could I expand this app with other features in the future - as would likely happen at a company - but I wanted to really work with **Test Driven Development** here. It's easy to add test files directly next to the logic.
